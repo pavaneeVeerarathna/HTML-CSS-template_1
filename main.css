@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nerko+One&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -7,7 +9,6 @@
 .header-wrapper{
     width: 100%;
     height: 80px;
-    border: 1px solid red;
     justify-content: center;
     display: flex;
 }
@@ -61,3 +62,38 @@ img{
     cursor: pointer;
 }
 /*header outer*/
+
+
+/*slider outer*/
+
+.slider-container{
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.slider-inner{
+    border: 1px solid red;
+    flex: 1;
+}
+
+.left-slider{
+    display: flex;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-photo/young-women-with-paper-bags_23-2147669912.jpg?t=st=1725657753~exp=1725661353~hmac=2e27aa46a13b3b6bec7b2d9c33ff57620fa9515f4f5a429252239b0bc71f3221&w=996);
+    background-size: cover;
+}
+
+.left-side-content-wrapper{
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.left-side-content-wrapper > h1{
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/*slider outer*/
