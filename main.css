@@ -11,6 +11,8 @@
     height: 80px;
     justify-content: center;
     display: flex;
+    border-bottom: 1px dotted rgba(45, 52, 54,1.0);
+    margin-bottom: 20px;
 }
 
 .header-inner{
@@ -76,6 +78,7 @@ img{
 .slider-inner{
     border: 1px solid red;
     flex: 1;
+    
 }
 
 .left-slider{
@@ -87,7 +90,7 @@ img{
 }
 
 .left-side-content-wrapper{
-    border: 1px solid red;
+    margin-left: 20px;
     padding: 20px;
     position: relative;
     color: white;
@@ -95,18 +98,51 @@ img{
 }
 
 .left-side-content-wrapper > h1{
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
   margin-bottom: 10px;
 }
 
+.left-side-content-wrapper > button{
+    margin-top: 40px;
+    background: none;
+    border: 2px solid white;
+    padding: 10px 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.left-side-content-wrapper > button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
 .shadow{
     width: 100%;
     height: 100%;
-    background-color: rgba(99, 110, 114,0.3);
+    background-color: rgba(99, 110, 114,0.5);
     position: absolute;
     
+}
+
+.right-slider{
+ display: flex;
+ flex-direction: column;
+}
+
+.slider-right-wrapper{
+    border: 1px solid red;
+    flex: 1;
+    display: flex;
+}
+
+.slider-right-slot{
+    flex: 1;
+    border: 1px solid red;
+    background-image: url(https://img.freepik.com/free-photo/lady-trousers-blouse-keeps-sequins-dress-woman-posing-with-packages-while-shopping-pink-background_197531-17607.jpg?t=st=1725740741~exp=1725744341~hmac=23318b967fb475cbf0a118f8730aefbbfcc2d75790e83689e9a0fd86fc42e739&w=360);
+    background-size: cover;
+    position: relative;
 }
 /*slider outer*/
