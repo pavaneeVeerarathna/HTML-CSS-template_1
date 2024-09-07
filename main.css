@@ -71,12 +71,10 @@ img{
 .slider-container{
     width: 100%;
     height: 600px;
-    border: 1px solid red;
     display: flex;
 }
 
 .slider-inner{
-    border: 1px solid red;
     flex: 1;
     
 }
@@ -87,6 +85,9 @@ img{
     background-image: url(https://img.freepik.com/free-photo/young-women-with-paper-bags_23-2147669912.jpg?t=st=1725657753~exp=1725661353~hmac=2e27aa46a13b3b6bec7b2d9c33ff57620fa9515f4f5a429252239b0bc71f3221&w=996);
     background-size: cover;
     position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .left-side-content-wrapper{
@@ -105,8 +106,8 @@ img{
   margin-bottom: 10px;
 }
 
-.left-side-content-wrapper > button{
-    margin-top: 40px;
+.order-button{
+    margin-top: 35px;
     background: none;
     border: 2px solid white;
     padding: 10px 16px;
@@ -114,11 +115,12 @@ img{
     color: white;
 }
 
-.left-side-content-wrapper > button:hover{
+.order-button:hover{
     color: black;
     background-color: white;
     border: 1px solid black;
 }
+ 
 .shadow{
     width: 100%;
     height: 100%;
@@ -133,16 +135,42 @@ img{
 }
 
 .slider-right-wrapper{
-    border: 1px solid red;
     flex: 1;
     display: flex;
+    
 }
 
 .slider-right-slot{
     flex: 1;
-    border: 1px solid red;
     background-image: url(https://img.freepik.com/free-photo/lady-trousers-blouse-keeps-sequins-dress-woman-posing-with-packages-while-shopping-pink-background_197531-17607.jpg?t=st=1725740741~exp=1725744341~hmac=23318b967fb475cbf0a118f8730aefbbfcc2d75790e83689e9a0fd86fc42e739&w=360);
     background-size: cover;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.data-wrapper{
+    width: 87%;
+    height: 87%;
+    background-color: rgba(52, 73, 94,0.9);
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position:relative;
+    z-index: 2;
+    display: none;
+}
+
+.slider-right-slot:hover .data-wrapper{
+    display: flex!important;
+}
+
+.data-wrapper > h2{
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 /*slider outer*/
