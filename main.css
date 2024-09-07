@@ -83,11 +83,15 @@ img{
     align-items: center;
     background-image: url(https://img.freepik.com/free-photo/young-women-with-paper-bags_23-2147669912.jpg?t=st=1725657753~exp=1725661353~hmac=2e27aa46a13b3b6bec7b2d9c33ff57620fa9515f4f5a429252239b0bc71f3221&w=996);
     background-size: cover;
+    position: relative;
 }
 
 .left-side-content-wrapper{
     border: 1px solid red;
     padding: 20px;
+    position: relative;
+    color: white;
+    font-weight: 800px;
 }
 
 .left-side-content-wrapper > h1{
@@ -95,5 +99,14 @@ img{
     font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  margin-bottom: 10px;
+}
+
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(99, 110, 114,0.3);
+    position: absolute;
+    
 }
 /*slider outer*/
