@@ -258,3 +258,33 @@ img{
 
 
 /*product outer*/
+
+/*about outer*/
+
+.about-container{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-inner{
+    width: 70%;
+    height: auto;
+    border: 1px solid red;
+    min-height: 500px;
+    display: flex;
+}
+
+.about-left{
+    
+}
+
+.about{
+    border: 1px solid red;
+    flex: 1;
+}
+
+/*about outer*/
