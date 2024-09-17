@@ -181,7 +181,6 @@ img{
 .product-container{
     width: 100%;
     height: 600px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,40 +189,71 @@ img{
 .product-inner{
     width: 80%;
     height: 500px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
 }
 
 .product{
     width: 30%;
-    border: 1px solid rgb(15, 190, 88);
     display: flex;
     flex-direction: column;
 }
 
 .product-image-context{
-    border: 1px solid rgb(12, 199, 192);  
+      
     flex: 1;
     background-image: url(https://img.freepik.com/free-photo/basic-green-shirt-men-rsquo-s-fashion-apparel-studio-shoot_53876-101197.jpg?t=st=1726591873~exp=1726595473~hmac=f6cbc2ab93c640adb535e237cc684315d6b2800d7734bd708c18ea80cdc38ee4&w=360);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-image-context:hover .hidden-items-context{
+    bottom: 5px;
 }
 
 .product-details-context{
-    border: 1px solid rgb(24, 11, 198); 
     height: 100px;
     display: flex;
     flex-direction: column;
 }
 
-.name-rate-container, .price-container{
-    border: 1px solid rgb(24, 11, 198); 
+.name-rate-container, .price-container{ 
     display: flex;
-    padding: 4px 10px;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
     align-items: center;
     flex: 1;
     justify-content: space-between;
+}
+
+.hidden-items-context{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -60px;
+}
+
+.hidden-items-inner{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hidden-items{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
